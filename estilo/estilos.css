@@ -35,27 +35,25 @@ video{
     }
 
     .inicio{
-    width: 555vh%;
-    height: 4vh;
+    width: 500vh%;
+    height: 0vh;
     position: relative;
-    text-align: center;
+    text-align: right;
     z-index: 3000;
-    background-color: White;
+    background-color: rgba(19, 18, 18, 0.5);
     }
 
     a{
         display: inline-block;
-        background-color: green;
-        color: rgb(52, 154, 185);
+        color: rgb(224, 236, 240);
         text-decoration: none;
-        text-align: center;
-        padding: 1em;
+        padding: 1.6em;
         margin-top: -17px;
         font-size: 20px;
          }
 
          a:hover{
-            color: rgb(146, 25, 170);
+            color: rgb(59, 190, 230);
             }
     
 h1{
