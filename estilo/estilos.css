@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
-    background: white;
+    background: rgb(12, 12, 12);
 }
 
 header{
@@ -55,7 +55,7 @@ video{
          }
 
          a:hover{
-            color: rgb(155, 36, 36);
+            color: rgb(146, 25, 170);
             }
     
 h1{
