@@ -5,15 +5,13 @@
 }
 
 hr{    
-    color: rgb(170, 17, 17)!important;
-    border-width: 50px;
+    color: rgb(255, 255, 255)!important;
+    border-width: 3px;
     padding: 0;
-    margin-bottom: 0;
+    margin-bottom: 10;
+
     }
 
-.container{
-    
-}
 
 .datosimg{
     width:1400px;
@@ -24,7 +22,7 @@ hr{
 }
 
 h2{
-    font-family: Roboto;
+    font-family: roboto;
     align-content: center;
     font-size:2em;
     text-decoration: none;
@@ -32,9 +30,39 @@ h2{
     color: rgb(61, 60, 60)
     }
 
+    h3 {
+        font-weight: 400;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        margin: .2em;
+        font-family: 'Roboto';
+    }
 
+    .linea{
+        background: #fd4a5c;
+        height: 30px;
+        width: 100%;
+        display: block;
+        
+        
+    
+    }
 
+    .redes-sociales-span{
+        display: flex;
+    justify-content: center;
+    color:rgb(185, 24, 24);
+    }
 
+    .redes-sociales-span i{      /* iconos de redes sociales   */
+        font-size: 20px;
+        padding: 0 15px 0 20px ;
+        color: rgb(241, 235, 235);
+        width: 6px;
+        margin-top: 4px;    
+        }
 
 
 
@@ -48,6 +76,11 @@ h2{
             align-content: center;
             margin-left: 1%  ;
             margin-top: -2%;
+        }
+
+        .fotocarrusel{
+    width:900px;
+    object-fit: cover;
         }
 }
 
@@ -67,7 +100,53 @@ h2{
             margin-top: -2%;
             display:none;
         }
+       .d-block{
+        object-fit:fill;
+        width: 900px;
+        }
 
     }
+
+
+    /*EMPIEZA FOOTER */
+
+footer{
+	background:#1d1b1b;
+}
+
+footer.titulo-seccion{
+   color: #fff; 
+}
+.copy{
+    color: rgb(247, 236, 236);
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10;
+
+
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    color:rgb(185, 24, 24);
+    
+}
+
+.redes-sociales i{      /* iconos de redes sociales   */
+    font-size: 20px;
+    padding: 0 15px 0 15px ;
+    color: rgb(172, 23, 23);
+    width: 6px;
+   
+    }
+
+/* 
+agregado de estilos
+*/
+
+.fondoFooter{
+	background-image: linear-gradient(#000,#000, #000,#000,black,#212121, #851919);
+}
 
 

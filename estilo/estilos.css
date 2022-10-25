@@ -41,6 +41,7 @@ a{
     z-index: 100;
     color:#fff;
     margin-bottom: 30px;
+    text-decoration: none;
     
 }
 
@@ -54,7 +55,7 @@ a::after{
 }
 
 a:hover{
-    color: rgb(59, 190, 230);
+    color: rgb(38, 160, 197);
                 }
 
 
