@@ -18,8 +18,9 @@ header{
 
 video{
     width: 100%;
-    height: 50%;
+    object-fit: cover;
 }
+
 
 .absolute{
     width: 100%;
@@ -35,15 +36,10 @@ video{
     z-index: 2000;
     }
   
-a{
-    font-size: 50px;
-    font-weight: 900;
-    z-index: 100;
-    color:#fff;
-    margin-bottom: 30px;
-    text-decoration: none;
-    
+img{
+width: 300px;
 }
+
 
 a::after{
     display: block;
@@ -55,7 +51,9 @@ a::after{
 }
 
 a:hover{
-    color: rgb(38, 160, 197);
+    color: rgb(57, 188, 206);
+    transform: scale(1.8);
+    transition: width 3s, height 3s, transform 5s;
                 }
 
 
@@ -63,7 +61,7 @@ a:hover{
     width: 100%;
     height: 100%;
     position: absolute;
-    background: rgba(128, 126, 126, 0.);
+   /*  background: rgba(189, 35, 35, 0.1); */
 }
 
 .mapa{
@@ -74,12 +72,18 @@ a:hover{
     h1{
         font-size: 50px;
     }
-
+    img{
+        width: 200px;
+    }
 }
 
 @media screen and (max-width: 1000px){
     a{
         font-size: 30px;
+    }
+
+    img{
+        width: 150px;
     }
      } 
      
@@ -94,9 +98,8 @@ a:hover{
 }
 
 @media screen and (max-width: 500px){
-    a{
-        font-size: 20px;
-        margin-bottom: 0;
+    img{
+       width:150px;
     }
     .mapa{
         display:flex
