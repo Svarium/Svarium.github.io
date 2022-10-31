@@ -11,8 +11,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-     <!-- Mi estilo-->
-     <link rel="stylesheet" href="./estilo/estiloInicio.css">
+  <!-- Mi estilo-->
+  <link rel="stylesheet" href="./estilo/estiloInicio.css">
 
      <!-- Fuentes -->
      <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
@@ -38,6 +38,10 @@
 </head>
 
 <body>
+
+  
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v15.0" nonce="d8GJIQnW"></script>
   <header>
     <!-- place navbar here -->
     <nav class="navbar navbar-expand-sm navbar-light ">
@@ -93,67 +97,87 @@
    
    
     
-    <!-- imagenes en corrousel -->
-
-
-   
     
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+<!-- CARRUSEL A MANO CSS Y HTML 2 -->
+<div class="carrousel">
+  <div class="conteCarrousel">
+      <div class="itemCarrousel" id="itemCarrousel-1"> 
+          <div class="itemCarrouselTarjeta"><img src="./imagenes/carrousel header/3_B.jpg" alt="" width="100%"></div>
+          <div class="itemCarrouselArrows">
+              <a href="#itemCarrousel-3">
+                <i class="fas fa-chevron-left"></i>
+              </a>
+              <div>               
+                  <p class="seccionCarrusel">¿QUIENES SOMOS?</p>
+                  <p class="textoCarrusel">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Consectetur eligendi esse nobis, assumenda distinctio <br> saepe illo quae corrupti delectus, eius animi dicta <br> </p>  
+                  <div class="link">
+                    <a href="#" class="leerMas"> Leer más</a>
+                  </div>                      
+              </div>               
+              <a href="#itemCarrousel-2">
+             <i class="fas fa-chevron-right"></i>
+              </a>
+          </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./imagenes/carrousel header/Sin título-2-03.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <div class="fondoTextoCarrusel"> 
-              <p class="seccionCarrusel">¿Quienes somos?</p>
-            </div>            
-            <a href="#" class="leermas">
-              <p>Leer más...</p>
-            </a>
+      <div class="itemCarrousel" id="itemCarrousel-2">
+          <div class="itemCarrouselTarjeta"><img src="./imagenes/carrousel header/pexels-quang-nguyen-vinh-2518861.jpg" alt="" width="100%"></div>
+          <div class="itemCarrouselArrows">
+              <a href="#itemCarrousel-1">
+                  <i class="fas fa-chevron-left"></i>
+              </a>
+
+              <div>               
+                <p class="seccionCarrusel">PRODUCTOS</p>
+                <p class="textoCarrusel">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Consectetur eligendi esse nobis, assumenda distinctio <br> saepe illo quae corrupti delectus, eius animi dicta <br> </p>  
+                <div class="link">
+                  <a href="#" class="leerMas"> Leer más</a>
+                </div>                      
+            </div>    
+              
+              <a href="#itemCarrousel-3">
+                  <i class="fas fa-chevron-right"></i>
+              </a>
           </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./imagenes/carrousel header/pexels-quang-nguyen-vinh-2518861.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <div class="fondoTextoCarrusel"> 
-              <p class="seccionCarrusel">Nuestros productos</p>
-            </div> 
-            <a href="#" class="leermas">
-              <p>Leer más...</p>
-            </a>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./imagenes/carrousel header/pexels-suzy-hazelwood-1232131.jpg"    class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <div class="fondoTextoCarrusel"> 
-              <p class="seccionCarrusel">Galería de fotos</p>
-            </div> 
-            <a href="#" class="leermas">
-              <p>Leer más...</p>
-            </a>
-          </div>
-        </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+      <div class="itemCarrousel" id="itemCarrousel-3">
+          <div class="itemCarrouselTarjeta"><img src="./imagenes/carrousel header/pexels-adonyi-gábor-1409221.jpg" alt="" width="100%"></div>
+          <div class="itemCarrouselArrows">
+              <a href="#itemCarrousel-2">
+                  <i class="fas fa-chevron-left" ></i>
+              </a>
+
+              <div>               
+                <p class="seccionCarrusel">GALERIA DE FOTOS</p>
+                <p class="textoCarrusel">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> Consectetur eligendi esse nobis, assumenda distinctio <br> saepe illo quae corrupti delectus, eius animi dicta <br> </p>  
+                <div class="link">
+                  <a href="#" class="leerMas"> Leer más</a>
+                </div>                      
+            </div>    
+              
+              <a href="#itemCarrousel-1">
+                  <i class="fas fa-chevron-right"></i>
+              </a>
+          </div>
+      </div>
+  </div>
+  <div class="conteCarrouselController">
+      <a href="#itemCarrousel-1">•</a>
+      <a href="#itemCarrousel-2">•</a>
+      <a href="#itemCarrousel-3">•</a>
+  </div>
+</div>
+
+
+
+
+
     
     <!--Segunda linea span -->
 
-    <span class="linea2 textospan">
+    <!-- <span class="linea2 textospan">
       <p class="textoAnimado">Ente De Cooperacion Tecnica y Financiera del Servicio Penitenciario Federal</p>
-    </span>
+    </span> -->
 
 <!-- Sección de imagenes con datos  fondo verde -->
     <div class="container">
@@ -164,11 +188,11 @@
     </div>
 
 
-    <br>
+    <br><br>
 
     <!-- cards NOTICIAS -->
 
-    <h2>Noticias Recientes</h2>
+    <h2>NOTICIAS RECIENTES</h2>
 
 <div class="container">
 
@@ -212,21 +236,18 @@
   </div>
 
 </div>
-<br>
+<br><br><br>
 
 <!-- SECCIÓN REDES SOCIALES -->
-<h2>Nuestras Redes</h2>
+
+<div class="fondoRedes">
+  <P class="seguinosRedes"># SEGUINOS EN NUESTRA REDES</P>
 
 <div class="container">
   <div class="row g-3">
     <div class="col-12 col-md-4 col-lg-4">
       <div class="card"> 
-        <iframe width="350" height="490" src="http://instagram.com/p/CkJb1KoO5qd/embed" frameborder="0"></iframe>
-      </div>      
-    </div>
-    <div class="col-12 col-md-4 col-lg-4">
-      <div class="card"> 
-        <iframe width="350" height="490" src="http://instagram.com/p/Cj_KNSOu3kc/embed" frameborder="0"></iframe>
+        <iframe width="350" height="520" src="http://instagram.com/p/CkJb1KoO5qd/embed" frameborder="0"></iframe>
       </div>      
     </div>
     <div class="col-12 col-md-4 col-lg-4">
@@ -234,9 +255,16 @@
         <blockquote class="twitter-tweet"><p lang="es" dir="ltr">“Las diferencias nos enriquecen,el respeto nos une”En el marco de la celebración del “Dia del Respeto de la Diversidad Cultural”el Encope participó con un stand exhibiendo sus productos elaborados por personas privadas de libertad, en un evento en la Colonia Penal de Ezeiza,U.19 <a href="https://t.co/OrVnDbBmG2">pic.twitter.com/OrVnDbBmG2</a></p>&mdash; ENCOPE (@encope_spf) <a href="https://twitter.com/encope_spf/status/1580976800355610625?ref_src=twsrc%5Etfw">October 14, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
   </div> 
+    <div class="col-12 col-md-4 col-lg-4">
+      <div class="card"> 
+        <iframe width="350" height="520" src="http://instagram.com/p/Cj_KNSOu3kc/embed" frameborder="0"></iframe>
+      </div>      
+    </div>
+
+</div>
 </div>
 
-<br>
+<br> <br>
 
 
 
@@ -252,12 +280,12 @@
       <br>
       <h3 class="titulo-seccion">Contacta con Nosotros</h3>
   </div>
-  <div class="redes-sociales">
+  <!-- <div class="redes-sociales">
       <a href="https://instagram.com/encope.spf" target="_blank"><i class="fa-brands fa-instagram"></i></a>
       <a href="https://www.facebook.com/profile.php?id=100008353927791" target="_blank"><i class="fa-brands fa-facebook"></i></a>
       <a href="https://twitter.com/encope_spf" target="_blank"><i class="fa-brands fa-twitter"></i></a>
       <a href="https://www.youtube.com/channel/UCwnnCYpa8T8hfWaUKJ62jMw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-  </div>
+  </div> -->
 
   
   <span class="lineafooter"></span>

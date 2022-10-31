@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
 .carousel-item{
     height: 30rem;
     width: 90rem;     
@@ -64,37 +70,71 @@ h2{
     }
 
     .seccionCarrusel{
-        font-family: 'roboto';        
-        font-size: 40px;
-        color:#f3eced;
+        font-family: 'roboto';
+        font-weight:bold;        
+        font-size: 50px;
+        color:#fafafa;
         text-shadow: #0c0c0c;
-        text-align:center;
-       /*  background-color:#fd4a5c;
-        margin-left: 20px; */
+        text-align:left;
+        text-decoration: none;
+        display: flex;
+        margin-right: 700px;
+        margin-top: 20px;
+        text-shadow: 3px 3px 2px rgb(14, 13, 13);
     }
 
-    .fondoTextoCarrusel{
-        background-color: rgba(243, 93, 93, 0.8);
-        height:auto;
-        width:400px;
-        align-content: center;
-        margin-left: 30%;
-    }
-
-    .leermas{
+    .leerMas{
+        text-decoration: none;
+        font-size: 15px;
         font-family: 'roboto';
         font-weight: bold;
-        color: #fff;
-        text-decoration: none;
+        color: #f8f4f4;  
+        margin-top: 12px;
+        margin-left: 12px; 
+        } 
+        
+    .leerMas:hover{
+        color: #705eda;
+    }    
+
+    .link{
+        background-color:#f74343;
+        width:90px;
+        height: 45px;
+        display: flex;          
+    }
+
+    .link:hover{
+        transform: rotate(0.5deg) scale(1.2);
+        transition: width 1s, height 1s, transform 2s;
+
+    }
+
+    .textoCarrusel{
+        font-family:'roboto';
+        font-size: 20px;
+        color: #dadada;
+        text-shadow: 3px 3px 2px rgb(14, 13, 13); /* SOMBRA PARA TEXTO BLANCO SOBRE FOTO */
+        text-align: justify;
+    }
+   
+
+    .fondoRedes{
+        background-color:#dadada;
+    }
+
+    .container{
+        padding-top:15px;
+    }
+
+    .seguinosRedes{
+        font-family:'roboto';
+        font-weight:normal;
+        color: #5a5a58;
+        text-align: center;
+        padding-top:40px;
         font-size: 25px;
-        text-shadow: #000;
     }
-
-    .leermas:hover{
-        color: #f74343;
-    }
-
-
 
     .linea{
         background: #fd4a5c;
@@ -167,6 +207,81 @@ h2{
     .carousel-indicators{
         padding-left: 5%;;
     }
+
+    .carousel-item p{
+        text-shadow: rgb(238, 234, 234);
+        object-fit: cover;
+        }
+
+
+    /*CARRUSEL A MANO 2*/
+    .carrousel{
+        width: 100%;
+    }
+    
+    .conteCarrousel{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+
+    }
+    
+    .itemCarrousel{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .itemCarrouselTarjeta{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .itemCarrouselArrows{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px; 
+        color: black;
+        font-size: 3.5em;
+    }
+
+  
+    
+    .itemCarrouselArrows > i:hover {
+        cursor: pointer;
+        color: #f74343;
+    }
+    
+    
+    .conteCarrouselController{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -25px;
+    }
+    
+    .conteCarrouselController > a{
+        text-decoration: none;
+        font-size: 3em;
+        color: #f74343;
+    }
+    
+    .itemCarrouselArrows > a > i{
+        color: white;
+    }
+
+
+
+    /* FIN CARRUSEL A MANO 2*/
 
 
 
