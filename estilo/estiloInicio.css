@@ -15,8 +15,15 @@ h5{
     padding-top: 5px;
     color:#829529;
     font-family:'roboto';
-    font-weight: bold;
-   
+    font-weight: bold;   
+}
+
+h6{
+    font-family:'roboto';
+    text-align: center;
+    font-size:25px;
+    padding-bottom: 10px;
+    
 }
 
 .card-text{
@@ -120,7 +127,10 @@ h2{
    
 
     .fondoRedes{
-        background-color:#dadada;
+        /* background-color:#dadada; */
+        background-image: url("../imagenes/imagen\ productos\ vector-02.png"); /* IMAGEN DE FONDO EN LA ETIQUETA */
+        background-size: 85rem; /* DAR TAMAÑO A LA IMAGEN DE FONDO */
+        padding-bottom: 60px;
     }
 
     .container{
@@ -128,13 +138,14 @@ h2{
     }
 
     .seguinosRedes{
-        font-family:'roboto';
-        font-weight:normal;
-        color: #5a5a58;
-        text-align: center;
-        padding-top:40px;
-        font-size: 25px;
+        width: 320px;
+        color: #0c0c0c;
+        padding-top:10px;
+        margin-left: 390px;
+        
+        /* text-shadow: 0.5px 1px 1px rgb(53, 52, 52); */
     }
+
 
     .linea{
         background: #fd4a5c;
@@ -283,6 +294,12 @@ h2{
 
     /* FIN CARRUSEL A MANO 2*/
 
+    .logosColaboradores{
+        width:900px;
+        padding-left: 180px;
+        padding-bottom: 20px;
+    }
+
 
 
     /* @MEDIA */
@@ -309,6 +326,7 @@ h2{
     width:900px;
     object-fit: cover;
         }
+
 }
 
 @media screen and (min-width : 501px) and (max-width : 800px){
@@ -379,10 +397,10 @@ footer.titulo-seccion{
 }
 
 .redes-sociales i{      /* iconos de redes sociales   */
-    font-size: 20px;
+    font-size: 25px;
     padding: 0 15px 0 15px ;
-    color:#fd4a5c;
-    width: 6px;   
+    color:#f3f0f0;
+    width: 60px;   
     }
 
 .redes-sociales i:hover{
@@ -395,6 +413,38 @@ agregado de estilos
 
 .fondoFooter{
 	background-image: linear-gradient(#000,#000, #000,#000,black,#212121, #851919);
+}
+
+
+.formulario__btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: rgb(230, 50, 50);
+	color: #fff;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.formulario__input {
+	width: 100%;
+	background: #fff;
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+.formulario__label {
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
 }
 
 
