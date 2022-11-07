@@ -30,7 +30,7 @@ h6{
     padding-left: 10px;
     padding-bottom: 10px;
     font-size:13px;
-    font-family: Roboto;
+    font-family: 'Roboto';
 
 }
 
@@ -48,6 +48,10 @@ video{
     object-fit: cover;
 }
 
+.twitterCelu{
+    display: none;
+}
+
 
 .datosimg{
     width:1400px;
@@ -58,7 +62,7 @@ video{
 }
 
 h2{
-    font-family: roboto;
+    font-family: 'roboto';
     align-content: center;
     font-size:2em;
     text-decoration: none;
@@ -128,7 +132,7 @@ h2{
 
     .fondoRedes{
         /* background-color:#dadada; */
-        background-image: url("../imagenes/imagen\ productos\ vector-02.png"); /* IMAGEN DE FONDO EN LA ETIQUETA */
+        background-image: url("../imagenes/imagen\ productos\ vector-03.png"); /* IMAGEN DE FONDO EN LA ETIQUETA */
         background-size: 85rem; /* DAR TAMAÑO A LA IMAGEN DE FONDO */
         padding-bottom: 60px;
     }
@@ -361,12 +365,94 @@ h2{
         width: 900px;
         }
         .datos{
-            width:750px;
+            width:105%;
             align-items: center;
             align-content: center;
-            margin-left: -35%  ;
-            margin-top: -2%;
+            margin-left: -2%  ;
+            margin-top: -55%;
         }
+
+        .seccionCarrusel{
+            font-family: 'roboto';
+            font-weight:bold;        
+            font-size: 25px;
+            color:#fafafa;
+            text-shadow: #0c0c0c;
+            text-align:end;
+            text-decoration: none;
+            display: flex;
+            /* margin-right: 900px; */
+            margin-top: 0px;
+            text-shadow: 3px 3px 2px rgb(14, 13, 13);
+        }
+
+        .textoCarrusel{
+            display: none;
+        }
+
+        .itemCarrouselArrows{
+            position: absolute;
+            top: -10%;
+            bottom: 0%;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%; 
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px; 
+            color: black;
+            font-size: 2em;
+        }
+
+        .link{
+            background-color:#f74343;
+            width:90px;
+            height: 45px;
+            display: flex;  
+            margin-left: 10px;        
+        }
+
+        .conteCarrouselController{
+            display: none;
+        }
+
+        h2{
+            margin-top: -20%;
+            font-size: 100%;
+        }
+
+        .seguinosRedes{
+            width: 350px;
+            color: #0c0c0c;
+            padding-top:55px;
+            margin-left: 7%;
+            
+            /* text-shadow: 0.5px 1px 1px rgb(53, 52, 52); */
+        }
+
+        .logosColaboradores{
+            width:430px;
+            padding-left: 0px;
+            padding-bottom: 20px;
+        }
+
+      
+        .twittersmall{
+            display: none;
+        }
+
+        .twitterCelu{
+            display:block;
+            padding-top: 10%;
+            padding-bottom: 10%;
+        } 
+
+        H6{
+            font-size: 120%;
+        }
+
 
     }
 
