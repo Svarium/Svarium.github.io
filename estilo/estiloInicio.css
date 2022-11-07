@@ -369,7 +369,7 @@ h2{
             align-items: center;
             align-content: center;
             margin-left: -2%  ;
-            margin-top: -55%;
+            margin-top: -200%;
         }
 
         .seccionCarrusel{
@@ -392,7 +392,7 @@ h2{
 
         .itemCarrouselArrows{
             position: absolute;
-            top: -10%;
+            top: -20%;
             bottom: 0%;
             left: 0;
             right: 0;
@@ -419,7 +419,7 @@ h2{
         }
 
         h2{
-            margin-top: -20%;
+            margin-top: -85%;
             font-size: 100%;
         }
 
@@ -427,13 +427,13 @@ h2{
             width: 350px;
             color: #0c0c0c;
             padding-top:55px;
-            margin-left: 7%;
+            margin-left: 0%;
             
             /* text-shadow: 0.5px 1px 1px rgb(53, 52, 52); */
         }
 
         .logosColaboradores{
-            width:430px;
+            width:350px;
             padding-left: 0px;
             padding-bottom: 20px;
         }
