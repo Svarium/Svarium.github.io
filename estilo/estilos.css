@@ -126,7 +126,7 @@ a:hover{
      .videoSmall{
          display:block;
          width: 100%;
-         height: 20%;
+         
          object-fit: cover;
      }
 }
@@ -150,7 +150,6 @@ a:hover{
         margin-top: -30%;
         margin-bottom: 0%;
         }
-
     .mapa{
         display:flex
     }
@@ -162,7 +161,6 @@ a:hover{
     .videoSmall{
         display:block;
         width: 100%;
-        height: 20%;
         object-fit: cover;
     }
 }
