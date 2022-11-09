@@ -44,6 +44,9 @@ img{
 width: 300px;
 }
 
+.tituloMapa{
+    display:none;
+}
 
 a::after{
     display: block;
@@ -129,6 +132,13 @@ a:hover{
          
          object-fit: cover;
      }
+     
+     .tituloMapa{
+        display:block;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -163,4 +173,12 @@ a:hover{
         width: 100%;
         object-fit: cover;
     }
+
+    .tituloMapa{
+        display:block;
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+        text-align: center;
+    }
+    
 }
