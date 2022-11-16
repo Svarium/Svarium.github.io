@@ -59,7 +59,7 @@ a::after{
 
 a:hover{
     color: rgb(57, 188, 206);
-    transform: scale(1.8);
+    transform: scale(1.5);
     transition: width 3s, height 3s, transform 5s;
                 }
 
@@ -72,6 +72,10 @@ a:hover{
 }
 
 .mapa{
+    display: none;
+}
+
+.ir{
     display: none;
 }
 
@@ -179,6 +183,15 @@ a:hover{
         font-family: 'Raleway', sans-serif;
         color: #fff;
         text-align: center;
+    }
+
+    .ir{
+        display: block;
+        text-align: center;
+        font-family:'roboto';
+        font-weight:bolder;
+        color: #fff;
+        text-decoration: none;
     }
     
 }
