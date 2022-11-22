@@ -6,14 +6,15 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	background: #E5E5E5;
+	background: #ffffff;
 }
 
 main {
-	max-width: 800px;
-	width: 90%;
+	max-width: 900px;
+	width: 100%;
 	margin: auto;
 	padding: 40px;
+	background:#46878a;
 }
 
 .formulario {
@@ -27,6 +28,7 @@ main {
 	font-weight: 700;
 	padding: 10px;
 	cursor: pointer;
+	color: aliceblue;
 }
 
 .formulario__grupo-input {
@@ -106,8 +108,8 @@ main {
 	height: 45px;
 	line-height: 45px;
 	width: 30%;
-	background: #000;
-	color: #fff;
+	background: rgb(206, 56, 56);
+	color: rgb(216, 15, 15);
 	font-weight: bold;
 	border: none;
 	border-radius: 3px;
