@@ -220,10 +220,14 @@ h3 {
         flex-direction: column;
     }
 
-    iframe{
+    .videoNoticias{
         width: 100%;
         height:450px;
     }
+
+
+
+
 
     /* FINALIZA ESTILOS MAIN */
 
@@ -360,7 +364,21 @@ h3 {
         display: none;
     }
 
-    
+    .imagenUnidadesMapa{
+        object-fit: cover;
+        height: 350px;
+        width: 900px;
+    }
+
+    .videoUnidades{
+        display: block;
+    }
+
+    .videoUnidadesSmall{
+        display: none;
+    }
+
+ 
     .contenedorMapa{
         width: 70%;
         height: 800px;
@@ -666,6 +684,14 @@ footer.titulo-seccion{
         }
 
         .mapa{
+            display: block;
+        }
+
+        .videoUnidades{
+            display: none;
+        }
+        
+        .videoUnidadesSmall{
             display: block;
         }
 }
