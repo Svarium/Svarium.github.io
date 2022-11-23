@@ -49,6 +49,13 @@ h3 {
         padding-top:15px;
     }
 
+    .textoNoticias{
+        font-family: 'roboto';
+        font-size:15px;
+        text-align: justify;
+        text-decoration: none;
+    }
+
  
 
 
@@ -56,6 +63,12 @@ h3 {
 
 
 /* CARRUSEL BOOTSTRAP5 */
+
+.carruselNoticias{
+    width: 82% !important; 
+    height: 550px;
+    object-fit: cover;
+}
 
 .carruselBootstrap{
     display: block;
@@ -342,6 +355,10 @@ h3 {
 
 
     /* COMIENZA ESTILO MAPA */
+
+    .mapa{
+        display: none;
+    }
 
     
     .contenedorMapa{
@@ -644,6 +661,13 @@ footer.titulo-seccion{
         display: none;
         }              
         
+        .contenedorMapa{
+            display: none;
+        }
+
+        .mapa{
+            display: block;
+        }
 }
 
 
