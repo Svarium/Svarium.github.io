@@ -198,14 +198,15 @@
             </div>
             <div class="col-xs-12 col-md-6 col-lg-4">
               <p class="h5">Suscribete a Nuestro Newsletter <br> y enterate de las novedades</p>
-              <div class="mb-3">
-                <label for="correo" class="formulario__label"></label>
-              </div>
-              <div class="mb-3">
-                <input type="email" class="formulario__input" name="correo" id="correo" placeholder="ingrese su correo electronico">
-              </div>
-              <div class="mb-3">
-                <button type="submit" class="formulario__btn">Enviar</button>
+              <div class="news">
+                <form action="mailto:difusion@encope.gob.ar" method="post" name="form1">
+                  <label for="nombre"></label>
+                  <input class="formulario__input" id="nombre" name="nombre" type="text" placeholder="Ingrese su nombre"/>
+                  <label for="email"></label>
+                  <input class="formulario__input" id="email" name="nombre" type="text" placeholder="Ingrese su mail" />
+                  <!-- <textarea class="formulario__input" id="opinion" name="opinion" placeholder="Escribe un comentario"></textarea> -->
+                  <input class="formulario__btn" name="Submit" type="submit" value="Enviar" />
+                </form>              
               </div>
             </div>
             

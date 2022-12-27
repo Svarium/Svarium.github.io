@@ -176,7 +176,7 @@ h3 {
 
 
 .datos{
-    width:850px;
+    width: 100%;
     align-items: center;
     align-content: center;
     margin-left: 12%  ;
@@ -556,6 +556,7 @@ footer.titulo-seccion{
 	border-radius: 3px;
 	cursor: pointer;
 	transition: .1s ease all;
+    margin-top: 20px;
 }
 
 .formulario__input {
@@ -574,6 +575,10 @@ footer.titulo-seccion{
 	font-weight: 700;
 	padding: 10px;
 	cursor: pointer;
+}
+
+.news{
+    
 }
 
 /* TERMINA FOOTER */
