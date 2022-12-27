@@ -176,12 +176,10 @@ h3 {
 
 
 .datos{
-    width: 100%;
-    align-items: center;
-    align-content: center;
-    margin-left: 12%  ;
-    margin-top: -3%; 
+    width: 150%;
+    margin: 0 auto;
 }
+
 
 
 .datosSmall{
@@ -225,8 +223,12 @@ h3 {
         height:450px;
     }
 
-
-
+.vision{
+    display: flex;
+    background-color: #7faaad;
+    color: #ffff;
+    text-align:justify;
+}
 
 
     /* FINALIZA ESTILOS MAIN */
@@ -577,8 +579,17 @@ footer.titulo-seccion{
 	cursor: pointer;
 }
 
-.news{
-    
+
+.wtp i{
+    font-size: 50px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.wtp i:hover{
+    transform: rotate(5deg) scale(1.3);
+    transition: width 1s, height 1s, transform 1s;
+    color: rgb(230, 50, 50);
 }
 
 /* TERMINA FOOTER */
