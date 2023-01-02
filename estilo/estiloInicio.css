@@ -505,6 +505,21 @@ h3 {
     /* FINALIZA ESTILO MAPA */
 
 
+    /* ESTILOS USO INTERNO */
+
+    .uso-interno-titulo{
+             height: 100px;
+             background-color: #46878a  
+    }
+
+    .boton-descarga i{
+        color: #d33838;
+        font-size: 25px;
+    }
+
+    /* FINALIZA ESTILOS USO INTERNO */
+
+
     /*EMPIEZA FOOTER */
 
 footer{
