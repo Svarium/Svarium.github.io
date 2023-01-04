@@ -16,9 +16,9 @@ header{
     overflow: hidden;
 }
 
-video{
-    width: 100%;
-    object-fit: cover;
+.videoLarge{
+    margin-bottom: -10px;
+    height: 110vh;
 }
 
 .videoSmall{
@@ -36,7 +36,7 @@ video{
     display: flex;
     justify-content: center;
     align-items:center;
-    float: right;
+    /* float: right; */
     z-index: 2000;
     }
   
