@@ -137,18 +137,26 @@ h3 {
 }
 
 .redes-sociales-span{
+    background: #fd4a5c;
+    height: 30px;
+    width: 100%;
     display: flex;
-    justify-content:flex-start;
+    flex-wrap: wrap;
     color:rgb(185, 24, 24);
-    padding-left: 8%;
+    justify-content:center;
+    }
+
+  
+
+    .redes-sociales-span section{
+        padding: 0 30px 0;
     }
 
     .redes-sociales-span i{      /* iconos de redes sociales   */
         font-size: 20px;
-        padding: 0 20px 0 20px ;
         color: rgb(241, 235, 235);
-        width: 6px;
-        margin-top: 4px;   
+        margin: 4px;  
+              
         }
 
     .redes-sociales-span i:hover{
@@ -187,20 +195,23 @@ h3 {
 }
 
 .datosimg{
-    width:1400px;
-    align-items: center;
-    align-content: center;
-    margin-left: -14%  ;
-    margin-top: -3%;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
 }  
+
+.datosimg img{
+    width:100%;
+}
    
 
     .linea{
         background: #fd4a5c;
         height: 30px;
         width: 100%;
-        display: block;   
-        margin-top:-5.5px ;
+        /* display: block;  */  
+        /* margin-top:-5.5px ; */
     } 
 
 
@@ -230,6 +241,19 @@ h3 {
     text-align:justify;
 }
 
+.vision hr{
+    height: 10px;
+    color:#014246 !important;
+    background-color:#014246 !important;
+    width: 10%;
+}
+
+.linea-textos{
+    height: 10px;
+    color:#fcfcfc !important;
+    background-color:#fdffff !important;
+    width: 10%;
+}
 
     /* FINALIZA ESTILOS MAIN */
 
