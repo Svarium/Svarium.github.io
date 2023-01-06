@@ -56,6 +56,19 @@ h3 {
         text-decoration: none;
     }
 
+    .titulares-secciones{
+       background-color:#46878a;
+        
+    }
+
+    .video-titulares{
+        width:100%;
+        margin-bottom:-6.5px;        
+    }
+
+  
+
+
  
 
 
@@ -578,7 +591,19 @@ footer.titulo-seccion{
 
 .redes-sociales i:hover{
     transform: rotate(5deg) scale(1.5);
-}    
+}   
+
+.redes-sociales-footer i{      /* iconos de redes sociales   */
+    font-size: 20px;
+    color:#f3f0f0;
+    width: 28px;   
+    text-align: center;
+    }
+
+    .redes-sociales-footer i:hover{
+        transform: rotate(5deg) scale(1.5);
+    }  
+
 
 
 .fondoFooter{
