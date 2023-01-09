@@ -14,7 +14,7 @@ main {
 	width: 100%;
 	margin: auto;
 	padding: 40px;
-	background:#F66060;
+	background:#46878a;
 }
 
 .formulario {
@@ -108,7 +108,7 @@ main {
 	height: 45px;
 	line-height: 45px;
 	width: 30%;
-	background:#46878a!important;
+	background:#F66060!important;
 	color: rgb(241, 233, 233)!important;
 	font-weight: bold;
 	border: none;
