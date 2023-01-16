@@ -9,6 +9,10 @@ body{
     font-family: 'roboto';
 }
 
+img{
+    object-fit: cover;
+}
+
 h6{
     font-family:'roboto';
     text-align: center;
@@ -76,6 +80,17 @@ h3 {
 
 
 /* CARRUSEL BOOTSTRAP5 */
+
+.card-img-top{
+    /* height: 280px; */
+    width: 100%;
+    transition: all 0.2s ;
+}
+
+.card-img-top:hover{
+    filter:blur(0.5px);
+    transform:scale(0.95);
+}
 
 .carruselNoticias{
     width: 82% !important; 
@@ -267,6 +282,34 @@ h3 {
     background-color:#fdffff !important;
     width: 10%;
 }
+
+.ir-arriba{
+   margin: 0 10% 20px ;  
+   top: 200px;
+   left: 85%;
+   /* display: flex;
+   flex-direction: column;
+   gap: 10px;
+   z-index: 900000000; */
+}
+
+.ir-arriba i{
+    font-size: 35px;
+    color: #d33838;
+}
+
+.ir-arriba a{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items:flex-end;
+   text-decoration: none;
+   color: #829529;
+   text-align: center;
+
+}
+
 
     /* FINALIZA ESTILOS MAIN */
 
